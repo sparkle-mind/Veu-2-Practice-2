@@ -5,6 +5,7 @@
     <StockList/>
     <GallaryLoop/>
     <AddImg/>
+    <VueModel/>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import PracticeTwo from "./components/PracticeTwo.vue"
 import StockList from './components/StockList.vue'
 import GallaryLoop from './components/GallaryLoop.vue'
 import AddImg from './components/AddImg.vue'
+import VueModel from './components/VueModel.vue'
 
 export default {
   name: 'App',
@@ -23,6 +25,7 @@ export default {
     StockList,
     GallaryLoop,
     AddImg,
+    VueModel
   }
 
 }
