@@ -1,5 +1,6 @@
 <template>
     <div class="modal-wrp">
+        <h1>Model</h1>
         <label>Enter your name:</label>
         <input type="text" placeholder="Your name" v-model="yourName" />
 

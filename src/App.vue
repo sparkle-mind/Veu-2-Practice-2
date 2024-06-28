@@ -6,6 +6,7 @@
     <GallaryLoop/>
     <AddImg/>
     <VueModel/>
+    <FilterVue/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import StockList from './components/StockList.vue'
 import GallaryLoop from './components/GallaryLoop.vue'
 import AddImg from './components/AddImg.vue'
 import VueModel from './components/VueModel.vue'
+import FilterVue from './components/FilterVue.vue'
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     StockList,
     GallaryLoop,
     AddImg,
-    VueModel
+    VueModel,
+    FilterVue
   }
 
 }
