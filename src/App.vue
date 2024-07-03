@@ -7,6 +7,7 @@
     <AddImg/>
     <VueModel/>
     <FilterVue/>
+    <ApiOne/>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import GallaryLoop from './components/GallaryLoop.vue'
 import AddImg from './components/AddImg.vue'
 import VueModel from './components/VueModel.vue'
 import FilterVue from './components/FilterVue.vue'
+import ApiOne from './components/ApiOne.vue'
 
 export default {
   name: 'App',
@@ -28,7 +30,8 @@ export default {
     GallaryLoop,
     AddImg,
     VueModel,
-    FilterVue
+    FilterVue,
+    ApiOne
   }
 
 }
